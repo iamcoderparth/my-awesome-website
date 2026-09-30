@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immersive Portfolio & Experience</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Animated Glow Orbs -->
+    <div class="bg-glows">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">Nexus<span class="dot">.</span></div>
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#features">Features</a>
+            <a href="#showcase">Showcase</a>
+            <a href="#contact" class="nav-btn">Get in Touch</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="badge"><i class="fa-solid fa-sparkles"></i> Next-Gen Web Experience</div>
+            <h1 class="hero-title">Design. Code. <span class="gradient-text">Animate.</span></h1>
+            <p class="hero-subtitle">Building fluid, high-performance web applications with stunning visual aesthetics, buttery-smooth interactions, and clean architecture.</p>
+            <div class="hero-actions">
+                <a href="#features" class="btn primary-btn">Explore Features <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#showcase" class="btn secondary-btn">View Showcase</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card glass">
+                <i class="fa-solid fa-bolt-lightning icon-pulse"></i>
+                <div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized for ultimate performance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2>Crafted For <span class="gradient-text">Excellence</span></h2>
+            <p>Every element is engineered with attention to micro-interactions and responsiveness.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card glass reveal">
+                <div class="card-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                <h3>Smooth Animations</h3>
+                <p>Hardware-accelerated transitions and scroll-reveal triggers that make your UI feel alive.</p>
+            </div>
+            <div class="feature-card glass reveal">
+                <div class="card-icon"><i class="fa-solid fa-layer-group"></i></div>
+                <h3>Glassmorphism UI</h3>
+                <p>Modern frosted-glass aesthetic layered over vibrant gradients for modern depth.</p>
+            </div>
+            <div class="feature-card glass reveal">
+                <div class="card-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <h3>Fully Responsive</h3>
+                <p>Fluid grids and adaptable typography that look gorgeous on phones, tablets, and desktops.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase / Interactive Section -->
+    <section id="showcase" class="showcase">
+        <div class="section-header">
+            <h2>Interactive <span class="gradient-text">Playground</span></h2>
+            <p>Click the button below to test dynamic state changes and micro-feedback.</p>
+        </div>
+        <div class="showcase-box glass reveal">
+            <div class="counter-display" id="counterValue">0</div>
+            <p class="counter-label">Interactive Action Counter</p>
+            <button class="btn primary-btn" id="incrementBtn">Click to Animate <i class="fa-solid fa-plus"></i></button>
+        </div>
+    </section>
+
+    <!-- Contact Footer Section -->
+    <footer id="contact" class="footer glass">
+        <div class="footer-content">
+            <h2>Ready to build something <span class="gradient-text">extraordinary?</span></h2>
+            <p>Deploy this code effortlessly on GitHub Pages and make it your own.</p>
+            <a href="mailto:hello@example.com" class="btn primary-btn"><i class="fa-regular fa-envelope"></i> Say Hello</a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nexus. Designed for GitHub Pages hosting.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
